@@ -1,21 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Lux",
+        "operatingSystem": "Web, Android, iOS, Windows, macOS",
+        "applicationCategory": "BusinessApplication",
+        "browserRequirements": "Requires HTML5 compatible browser",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "BRL",
+          "lowPrice": "49.90",
+          "highPrice": "69.90",
+          "offerCount": "2"
+        }
+      }
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- TAG DE VERIFICAÇÃO OFICIAL DO SEU GOOGLE SEARCH CONSOLE -->
-    <meta name="google-site-verification" content="4MPRekL7rN6A3DQ8ntUyZWeXAC4vPGjGmCNxLwrBcM8" />
+    <meta
+      name="google-site-verification"
+      content="4MPRekL7rN6A3DQ8ntUyZWeXAC4vPGjGmCNxLwrBcM8"
+    />
 
     <!-- PALAVRAS-CHAVE NO TÍTULO (Fator principal para aparecer nas buscas) -->
     <title>Lux | Sistema para Salão de Beleza e Barbearia Online</title>
-    
+
     <!-- DESCRIÇÃO DO SITE (O texto explicativo que aparece no resultado do Google) -->
-    <meta name="description" content="O Lux é o melhor sistema de gestão online para salões de beleza. Controle de agenda, fluxo de caixa, comissão automática e emissão de NFSe pelo celular.">
-    
+    <meta
+      name="description"
+      content="O Lux é o melhor sistema de gestão online para salões de beleza. Controle de agenda, fluxo de caixa, comissão automática e emissão de NFSe pelo celular."
+    />
+
     <!-- Configurações para os robôs de busca do Google indexarem a página corretamente -->
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://github.io">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://github.io" />
 
     <title>Lux - Sistema de Gestão para Salões de Beleza</title>
     <style>
@@ -42,7 +66,13 @@
 
       body {
         min-height: 100vh;
-        background: linear-gradient(135deg, #0a0e27 0%, #0f1535 30%, #1a1f3a 65%, #0f1a2e 100%);
+        background: linear-gradient(
+          135deg,
+          #0a0e27 0%,
+          #0f1535 30%,
+          #1a1f3a 65%,
+          #0f1a2e 100%
+        );
         color: var(--texto-claro);
         line-height: 1.65;
         overflow-x: hidden;
@@ -147,7 +177,10 @@
         color: #ffffff;
         text-decoration: none;
         font-weight: 700;
-        transition: transform 0.2s, background 0.2s, border-color 0.2s;
+        transition:
+          transform 0.2s,
+          background 0.2s,
+          border-color 0.2s;
       }
 
       .btn-outline:hover {
@@ -196,7 +229,11 @@
         position: absolute;
         inset: -2px;
         border-radius: inherit;
-        background: linear-gradient(135deg, rgba(0, 217, 255, 0.2), rgba(168, 85, 247, 0.18));
+        background: linear-gradient(
+          135deg,
+          rgba(0, 217, 255, 0.2),
+          rgba(168, 85, 247, 0.18)
+        );
         filter: blur(18px);
         z-index: -1;
       }
@@ -278,7 +315,11 @@
         border-radius: 24px;
         padding: 32px;
         box-shadow: 0 24px 60px rgba(0, 217, 255, 0.08);
-        transition: transform 0.3s, border-color 0.3s, background 0.3s, box-shadow 0.3s;
+        transition:
+          transform 0.3s,
+          border-color 0.3s,
+          background 0.3s,
+          box-shadow 0.3s;
       }
 
       .card:hover {
@@ -314,7 +355,11 @@
 
       .contact-section {
         padding: 100px 0 120px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, transparent 100%);
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.03) 0%,
+          transparent 100%
+        );
       }
 
       .form-container {
@@ -358,7 +403,10 @@
         border-radius: 16px;
         color: #f0f9ff;
         font-size: 15px;
-        transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+        transition:
+          border-color 0.3s,
+          box-shadow 0.3s,
+          background 0.3s;
       }
 
       input::placeholder {
@@ -382,7 +430,9 @@
         font-size: 16px;
         font-weight: 700;
         cursor: pointer;
-        transition: transform 0.2s, opacity 0.3s;
+        transition:
+          transform 0.2s,
+          opacity 0.3s;
         margin-top: 8px;
       }
 
@@ -462,7 +512,9 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        transition: background 0.2s, transform 0.2s;
+        transition:
+          background 0.2s,
+          transform 0.2s;
         border-radius: 50%;
         user-select: none;
         background: rgba(15, 19, 28, 0.75);
@@ -488,8 +540,12 @@
       }
 
       @keyframes fade {
-        from { opacity: 0.4; }
-        to { opacity: 1; }
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
       }
 
       .whatsapp-button {
@@ -508,7 +564,9 @@
         text-decoration: none;
         box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
         z-index: 1000;
-        transition: transform 0.2s, box-shadow 0.2s;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
       }
 
       .whatsapp-button:hover {
@@ -578,10 +636,18 @@
           <span class="badge">Sistema 100% Online</span>
           <h1>Lux: transforme seu salão com gestão inteligente</h1>
           <p class="hero-subtitle">
-            Agendamentos, comissões e fluxo financeiro reunidos em um painel rápido e moderno. O visitante curioso quer saber: como já estou perdendo tempo sem isso?
+            Agendamentos, comissões e fluxo financeiro reunidos em um painel
+            rápido e moderno. O visitante curioso quer saber: como já estou
+            perdendo tempo sem isso?
           </p>
           <div class="hero-actions">
-            <a href="https://smartpdv.onrender.com/" class="btn-cta" target="_blank" rel="noopener noreferrer">Quero testar grátis</a>
+            <a
+              href="https://smartpdv.onrender.com/"
+              class="btn-cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Quero testar grátis</a
+            >
             <a href="#slideshow" class="btn-outline">Ver demonstração</a>
             <a href="#contato" class="btn-outline">Solicite um contato</a>
           </div>
@@ -589,8 +655,8 @@
             <li>Acompanhe seu salão com graficos</li>
             <li>Agenda e comissao do profissional via celular</li>
             <li>Suporte rápido via WhatsApp</li>
-            <Li>Controle seu estoque</Li>
-            <Li>Fechamento de caixa</Li>
+            <li>Controle seu estoque</li>
+            <li>Fechamento de caixa</li>
           </ul>
         </div>
 
@@ -599,7 +665,8 @@
             <strong>Veja o painel</strong>
             <h2>Controle que impressiona</h2>
             <p>
-              Uma interface com foco em decisão rápida, agendas inteligentes e crescimento previsível para o seu salão.
+              Uma interface com foco em decisão rápida, agendas inteligentes e
+              crescimento previsível para o seu salão.
             </p>
             <div class="hero-stat-grid">
               <div class="hero-stat">
@@ -627,11 +694,11 @@
     <!-- 2. SEÇÃO DE RECURSOS -->
     <section class="features">
       <div class="wrapper">
-        <h2 class="section-title">
-          Recursos que deixam o cliente curioso
-        </h2>
+        <h2 class="section-title">Recursos que deixam o cliente curioso</h2>
         <p class="section-subtitle">
-          Cada recurso foi desenhado para simplificar seu dia e revelar o potencial real do seu salão. Confiança, velocidade e resultados na mesma plataforma.
+          Cada recurso foi desenhado para simplificar seu dia e revelar o
+          potencial real do seu salão. Confiança, velocidade e resultados na
+          mesma plataforma.
         </p>
 
         <div class="grid-features">
@@ -639,42 +706,62 @@
             <span class="card-icon">📅</span>
             <h3>Agenda inteligente</h3>
             <p>
-              Horários sincronizados, bloqueios automáticos e visão clara de disponibilidade para todo o time.
+              Horários sincronizados, bloqueios automáticos e visão clara de
+              disponibilidade para todo o time.
             </p>
           </div>
           <div class="card">
             <span class="card-icon">👥</span>
             <h3>Gestão de clientes</h3>
             <p>
-              Histórico completo, foco em fidelização e dados práticos para atendimento personalizado.
+              Histórico completo, foco em fidelização e dados práticos para
+              atendimento personalizado.
             </p>
           </div>
           <div class="card">
             <span class="card-icon">💰</span>
             <h3>Fluxo de caixa</h3>
             <p>
-              Controle instantâneo de entradas, saídas e saldo, com visual limpo para decisões rápidas.
+              Controle instantâneo de entradas, saídas e saldo, com visual limpo
+              para decisões rápidas.
             </p>
           </div>
           <div class="card">
             <span class="card-icon">📈</span>
             <h3>Relatórios claros</h3>
             <p>
-              Gráficos e painéis que mostram o que importa: lucro, comissão e performance da equipe.
+              Gráficos e painéis que mostram o que importa: lucro, comissão e
+              performance da equipe.
+            </p>
+          </div>
+          <div class="card">
+            <span class="card-icon">👥</span>
+            <h3>Profissional ativo</h3>
+            <p>
+              Agenda e comissão do profissional via celular.
+            </p>
+          </div>
+          <div class="card">
+            <span class="card-icon">🔒</span>
+            <h3>Gestão objetiva</h3>
+            <p>
+              Agenda e comissão do profissional via celular, com acesso rápido e seguro.
             </p>
           </div>
           <div class="card">
             <span class="card-icon">🔒</span>
             <h3>Login seguro</h3>
             <p>
-              Acesso protegido para dono e equipe, com controle de permissões e histórico de uso.
+              Acesso protegido para dono e equipe, com controle de permissões e
+              histórico de uso.
             </p>
           </div>
           <div class="card">
             <span class="card-icon">💾</span>
             <h3>Backup automático</h3>
             <p>
-              Dados sempre seguros, com recuperação fácil e proteção contra perda de informações.
+              Dados sempre seguros, com recuperação fácil e proteção contra
+              perda de informações.
             </p>
           </div>
         </div>
@@ -769,78 +856,92 @@
       </div>
     </section>
 
-    <a href="https://wa.me/5584988831986?text=Ol%C3%A1%20Lux%2C%20quero%20saber%20mais%20sobre%20o%20sistema." class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+    <a
+      href="https://wa.me/5584988831986?text=Ol%C3%A1%20Lux%2C%20quero%20saber%20mais%20sobre%20o%20sistema."
+      class="whatsapp-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       WhatsApp: (84) 98883-1986
     </a>
 
     <!-- 3. CÓDIGO JAVASCRIPT (Coloque junto aos seus outros scripts no fim do arquivo) -->
     <script>
-          // SUBSTITUA O TEXTO ABAIXO PELA SUA URL DO GOOGLE APPS SCRIPT
-          const URL_GOOGLE_SCRIPT = 'https://script.google.com/macros/s/AKfycbxMbXJ-eB7houafmzdPcPQYGS5uPITWTMhKvYO3ynKXdHrnTfre2sDUIQPuPpAwJ9E9EA/exec';
+      // SUBSTITUA O TEXTO ABAIXO PELA SUA URL DO GOOGLE APPS SCRIPT
+      const URL_GOOGLE_SCRIPT =
+        "https://script.google.com/macros/s/AKfycbxMbXJ-eB7houafmzdPcPQYGS5uPITWTMhKvYO3ynKXdHrnTfre2sDUIQPuPpAwJ9E9EA/exec";
 
-          document.getElementById('formDadosLux').addEventListener('submit', function(e) {
-              e.preventDefault();
+      document
+        .getElementById("formDadosLux")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
 
-              const btn = document.getElementById('btnEnviar');
-              const msg = document.getElementById('msgSucesso');
+          const btn = document.getElementById("btnEnviar");
+          const msg = document.getElementById("msgSucesso");
 
-              // Desabilita o botão para evitar cliques duplos enquanto envia
-              btn.disabled = true;
-              btn.innerText = 'Enviando...';
+          // Desabilita o botão para evitar cliques duplos enquanto envia
+          btn.disabled = true;
+          btn.innerText = "Enviando...";
 
-              const formData = new FormData(this);
+          const formData = new FormData(this);
 
-              // Adiciona automaticamente Data e Hora formatadas
-              const dataHoraAtual = new Date().toLocaleString('pt-BR');
-              formData.append('DataHora', dataHoraAtual);
+          // Adiciona automaticamente Data e Hora formatadas
+          const dataHoraAtual = new Date().toLocaleString("pt-BR");
+          formData.append("DataHora", dataHoraAtual);
 
-              // Faz o envio para a Planilha Google
-              fetch(URL_GOOGLE_SCRIPT, {
-                  method: 'POST',
-                  body: formData
-              })
-              .then(response => response.json())
-              .then(data => {
-                  if(data.result === 'success') {
-                      msg.style.display = 'block';
-                      this.reset(); // Limpa o formulário
-                  } else {
-                      alert('Houve um erro técnico. Tente novamente mais tarde.');
-                  }
-              })
-              .catch(error => {
-                  console.error('Erro:', error);
-                  alert('Erro na conexão ao enviar os dados.');
-              })
-              .finally(() => {
-                  // Reativa o botão após finalizar o processo
-                  btn.disabled = false;
-                  btn.innerText = 'Enviar Dados';
-
-                  // Esconde a mensagem de sucesso depois de 5 segundos
-                  setTimeout(() => { msg.style.display = 'none'; }, 5000);
-              });
-          });
-          let slideIndex = 1;
-          let slideshowTimeout;
-          showSlides(slideIndex);
-
-          function plusSlides(n) {
-              clearTimeout(slideshowTimeout);
-              showSlides(slideIndex += n);
-          }
-
-          function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              if (n > slides.length) { slideIndex = 1; }
-              if (n < 1) { slideIndex = slides.length; }
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";
+          // Faz o envio para a Planilha Google
+          fetch(URL_GOOGLE_SCRIPT, {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.result === "success") {
+                msg.style.display = "block";
+                this.reset(); // Limpa o formulário
+              } else {
+                alert("Houve um erro técnico. Tente novamente mais tarde.");
               }
-              slides[slideIndex - 1].style.display = "block";
-              slideshowTimeout = setTimeout(() => plusSlides(1), 3000);
-          }
+            })
+            .catch((error) => {
+              console.error("Erro:", error);
+              alert("Erro na conexão ao enviar os dados.");
+            })
+            .finally(() => {
+              // Reativa o botão após finalizar o processo
+              btn.disabled = false;
+              btn.innerText = "Enviar Dados";
+
+              // Esconde a mensagem de sucesso depois de 5 segundos
+              setTimeout(() => {
+                msg.style.display = "none";
+              }, 5000);
+            });
+        });
+      let slideIndex = 1;
+      let slideshowTimeout;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        clearTimeout(slideshowTimeout);
+        showSlides((slideIndex += n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+        slideshowTimeout = setTimeout(() => plusSlides(1), 3000);
+      }
     </script>
   </body>
 </html>
